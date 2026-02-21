@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Patient Portal</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script defer src="/static/app.js"></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <div class="title-wrap">
+        <h1>Patient Portal</h1>
+        <p>View your vaccines taken and what is due. This uses a demo Patient ID.</p>
+      </div>
+    </header>
+
+    <div class="nav">
+      <a href="/" >Home</a>
+      <a href="/patient" class="active">Patient</a>
+      <a href="/staff">Staff</a>
+    </div>
+
+    {% if error %}
+      <div class="banner err">{{ error }}</div>
+    {% endif %}
+
+    <div class="grid">
+      <!-- Lookup -->
+      <div class="card">
+        <div class="card-header">
+          <h2>Find your record</h2>
+        </div>
+        <div class="card-body">
+          <form method="post" action="/patient">
+            <div class="form-grid">
+              <div style="grid-column: 1 / -1;">
+                <label>Name</label>
+                <input name="name" placeholder="e.g., Ava Patel" required />
+              </div>
+
+              <div style="grid-column: 1 / -1;">
+                <label>Patient ID (demo)</label>
+                <input name="pid" placeholder="e.g., 57097" required />
+              </div>
+            </div>
+
+            <div class="actions">
+              <button class="btn-primary" type="submit">View my vaccines</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <div class="card-header">
+          <h2>Your record</h2>
+        </div>
+        <div class="card-body">
+
+          {% if patient %}
+            <div class="patient-card">
+              <div class="patient-top">
+                <div class="left">
+                  <div class="who">
+                    <p class="name">{{ patient.name }}</p>
+                    <p class="meta">Age {{ patient.age }}</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="patient-body">
+                <div class="section">
+                  <h3>Vaccines taken</h3>
+                  <div class="badges">
+                    {% for v in patient.vaccines %}
+                      <span class="badge">{{ v }}</span>
+                    {% endfor %}
+                    {% if patient.vaccines|length == 0 %}
+                      <span class="badge">None</span>
+                    {% endif %}
+                  </div>
+                </div>
+
+                <div class="section">
+                  <h3>Risk factors</h3>
+                  <div class="badges">
+                    {% for r in patient.risk_factors %}
+                      <span class="badge">{{ r }}</span>
+                    {% endfor %}
+                    {% if patient.risk_factors|length == 0 %}
+                      <span class="badge">None</span>
+                    {% endif %}
+                  </div>
+                </div>
+
+                <div class="section">
+                  <h3>Vaccines due</h3>
+                  <div class="badges">
+                    {% for v in due_vaccines %}
+                      <span class="badge due">{{ v }}</span>
+                    {% endfor %}
+                    {% if due_vaccines|length == 0 %}
+                      <span class="badge">None</span>
+                    {% endif %}
+                  </div>
+
+                  {% if due_reasons %}
+                    <div class="reasons" style="margin-top: 10px;">
+                      {{ due_reasons|join(", ") }}
+                    </div>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          {% else %}
+            <div class="patient-card" style="padding: 14px 16px;">
+              Enter your name and Patient ID (demo) to view your record.
+            </div>
+          {% endif %}
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

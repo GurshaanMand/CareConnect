@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Staff Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script defer src="/static/app.js"></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <div class="title-wrap">
+        <h1>Clinic Staff Dashboard</h1>
+        <p>Ranked vaccination outreach list. Scores and reasons are staff-only.</p>
+      </div>
+    </header>
+
+    <div class="nav">
+      <a href="/">Home</a>
+      <a href="/patient">Patient</a>
+      <a href="/staff" class="active">Staff</a>
+    </div>
+
+    {% if message %}
+      <div class="banner ok">{{ message }}</div>
+    {% endif %}
+    {% if error %}
+      <div class="banner err">{{ error }}</div>
+    {% endif %}
+
+    <div class="grid full">
+      <div class="card">
+        <div class="card-header">
+          <h2>Priority Ranking</h2>
+        </div>
+
+        <div class="card-body">
+          <div class="list">
+
+            {% for p, score, reasons in patients %}
+              {% set level = "low" %}
+              {% if score >= 50 %}{% set level = "high" %}
+              {% elif score >= 25 %}{% set level = "med" %}
+              {% endif %}
+
+              <div class="patient-card">
+                <div class="patient-top">
+                  <div class="left">
+                    <div class="ring {{ level }}">
+                      <span>#{{ loop.index }}</span>
+                    </div>
+
+                    <div class="who">
+                      <p class="name">{{ p.name }}</p>
+                      <p class="meta">Age {{ p.age }} • {{ p.family_doctor }}</p>
+                      <p class="meta">Patient ID (demo): {{ p.id }}</p>
+                    </div>
+                  </div>
+
+                  <div class="score-pill {{ level }}">
+                    Priority <strong>{{ score }}</strong>
+                  </div>
+                </div>
+
+                <div class="patient-body">
+
+                  <div class="section">
+                    <h3>Vaccines taken</h3>
+                    <div class="badges">
+                      {% for v in p.vaccines %}
+                        <span class="badge">{{ v }}</span>
+                      {% endfor %}
+                      {% if p.vaccines|length == 0 %}
+                        <span class="badge">None</span>
+                      {% endif %}
+                    </div>
+                  </div>
+
+                  <div class="section">
+                    <h3>Vaccines due</h3>
+                    <div class="badges">
+                      {% for v in p.due_vaccines %}
+                        <span class="badge due">{{ v }}</span>
+                      {% endfor %}
+                      {% if p.due_vaccines is not defined or p.due_vaccines|length == 0 %}
+                        <span class="badge">None</span>
+                      {% endif %}
+                    </div>
+                  </div>
+
+                  <div class="section">
+                    <h3>Risk factors</h3>
+                    <div class="badges">
+                      {% for r in p.risk_factors %}
+                        <span class="badge">{{ r }}</span>
+                      {% endfor %}
+                      {% if p.risk_factors|length == 0 %}
+                        <span class="badge">None</span>
+                      {% endif %}
+                    </div>
+                  </div>
+
+                  <div class="section">
+                    <h3>Why this priority?</h3>
+                    <div class="reasons">
+                      {{ reasons|join(", ") }}
+                    </div>
+
+                    <div class="actions" style="margin-top: 10px;">
+                      <button type="button" class="btn-primary"
+                        onclick="copyText('Hi {{ p.name }}, our clinic recommends booking your vaccines. Reply to schedule.')">
+                        Copy outreach message
+                      </button>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            {% endfor %}
+
+            {% if patients|length == 0 %}
+              <div class="patient-card" style="padding: 14px 16px;">
+                No patients in the system yet.
+              </div>
+            {% endif %}
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

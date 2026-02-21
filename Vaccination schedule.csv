@@ -1,0 +1,126 @@
+﻿VACCINECODE,SCHEDULEROUNDS,TARGETPOP_DESCRIPTION,AGEADMINISTERED,VACCINEDESCRIPTION,VACCINEDESCRIPTIONSHORT,DISEASECODE,DISEASEDESCRIPTION
+COVID19,1,Health workers,,COVID-19 vaccine,COVID-19,COVID19,COVID-19
+COVID19,1,Pregnant women,,COVID-19 vaccine,COVID-19,COVID19,COVID-19
+COVID19,1,Risk group(s),,COVID-19 vaccine,COVID-19,COVID19,COVID-19
+COVID19,1,Adults,,COVID-19 vaccine,COVID-19,COVID19,COVID-19
+COVID19,1,General/routine,,COVID-19 vaccine,COVID-19,COVID19,COVID-19
+DTAPHIBHEPBIPV,1,General/routine,M2,DTaP-Hib-HepB-IPV (acellular) vaccine,DTaP-Hib-HepB-IPV,DIPHTHERIA,Diphtheria
+DTAPHIBIPV,1,General/routine,M2,DTaP-Hib-IPV (acellular) vaccine,DTaP-Hib-IPV,DIPHTHERIA,Diphtheria
+TD_S,1,General/routine,Y15,Td (Tetanus toxoid and diphtheria for older children and adults) vaccine,Td,DIPHTHERIA,Diphtheria
+TD_S,1,Adults,1st contact,Td (Tetanus toxoid and diphtheria for older children and adults) vaccine,Td,DIPHTHERIA,Diphtheria
+TDAP_S,1,Pregnant women,,"Tdap (Tetanus, diphtheria for older children and adults and acellular pertussis) vaccine",Tdap,DIPHTHERIA,Diphtheria
+TDAP_S_IPV,1,General/routine,Y4-Y6,"Tdap-IPV (Tetanus, diphtheria for older children and adults, acellular pertussis and IPV) vaccine",Tdap-IPV,DIPHTHERIA,Diphtheria
+TDAP_S_IPV,1,Catch-up children,,"Tdap-IPV (Tetanus, diphtheria for older children and adults, acellular pertussis and IPV) vaccine",Tdap-IPV,DIPHTHERIA,Diphtheria
+TDAP_S,1,Adults,1st contact,"Tdap (Tetanus, diphtheria for older children and adults and acellular pertussis) vaccine",Tdap,DIPHTHERIA,Diphtheria
+TDAP_S,1,General/routine,Y11-Y16,"Tdap (Tetanus, diphtheria for older children and adults and acellular pertussis) vaccine",Tdap,DIPHTHERIA,Diphtheria
+TDAP_S,2,Adults,+Y10,"Tdap (Tetanus, diphtheria for older children and adults and acellular pertussis) vaccine",Tdap,DIPHTHERIA,Diphtheria
+TD_S,2,Adults,+Y10,Td (Tetanus toxoid and diphtheria for older children and adults) vaccine,Td,DIPHTHERIA,Diphtheria
+DTAPHIBHEPBIPV,2,General/routine,M4,DTaP-Hib-HepB-IPV (acellular) vaccine,DTaP-Hib-HepB-IPV,DIPHTHERIA,Diphtheria
+DTAPHIBIPV,2,General/routine,M4,DTaP-Hib-IPV (acellular) vaccine,DTaP-Hib-IPV,DIPHTHERIA,Diphtheria
+DTAPHIBIPV,3,General/routine,M6-M12,DTaP-Hib-IPV (acellular) vaccine,DTaP-Hib-IPV,DIPHTHERIA,Diphtheria
+DTAPHIBHEPBIPV,3,General/routine,M6,DTaP-Hib-HepB-IPV (acellular) vaccine,DTaP-Hib-HepB-IPV,DIPHTHERIA,Diphtheria
+DTAPHIBIPV,4,General/routine,M18,DTaP-Hib-IPV (acellular) vaccine,DTaP-Hib-IPV,DIPHTHERIA,Diphtheria
+DTAPHIBHEPBIPV,1,General/routine,M2,DTaP-Hib-HepB-IPV (acellular) vaccine,DTaP-Hib-HepB-IPV,HAEMOPHILINFLUENZAE,Haemophilus influenzae
+DTAPHIBIPV,1,General/routine,M2,DTaP-Hib-IPV (acellular) vaccine,DTaP-Hib-IPV,HAEMOPHILINFLUENZAE,Haemophilus influenzae
+DTAPHIBHEPBIPV,2,General/routine,M4,DTaP-Hib-HepB-IPV (acellular) vaccine,DTaP-Hib-HepB-IPV,HAEMOPHILINFLUENZAE,Haemophilus influenzae
+DTAPHIBIPV,2,General/routine,M4,DTaP-Hib-IPV (acellular) vaccine,DTaP-Hib-IPV,HAEMOPHILINFLUENZAE,Haemophilus influenzae
+DTAPHIBIPV,3,General/routine,M6-M12,DTaP-Hib-IPV (acellular) vaccine,DTaP-Hib-IPV,HAEMOPHILINFLUENZAE,Haemophilus influenzae
+DTAPHIBHEPBIPV,3,General/routine,M6,DTaP-Hib-HepB-IPV (acellular) vaccine,DTaP-Hib-HepB-IPV,HAEMOPHILINFLUENZAE,Haemophilus influenzae
+DTAPHIBIPV,4,General/routine,M18,DTaP-Hib-IPV (acellular) vaccine,DTaP-Hib-IPV,HAEMOPHILINFLUENZAE,Haemophilus influenzae
+HEPA_HEPB,1,General/routine,M18,"Hepatitis A, Hepatitis B vaccine (HepA-HepB)",HepA-HepB,HEPATITISA,Hepatitis A
+HEPA_HEPB,1,Catch-up children,,"Hepatitis A, Hepatitis B vaccine (HepA-HepB)",HepA-HepB,HEPATITISA,Hepatitis A
+HEPA_PEDIATRIC,1,Catch-up children,,Pediatric Hepatitis A vaccine (HepA),HepA pediatric,HEPATITISA,Hepatitis A
+DTAPHIBHEPBIPV,1,General/routine,M2,DTaP-Hib-HepB-IPV (acellular) vaccine,DTaP-Hib-HepB-IPV,HEPATITISB,Hepatitis B
+HEPA_HEPB,1,General/routine,M18,"Hepatitis A, Hepatitis B vaccine (HepA-HepB)",HepA-HepB,HEPATITISB,Hepatitis B
+HEPA_HEPB,1,Catch-up children,,"Hepatitis A, Hepatitis B vaccine (HepA-HepB)",HepA-HepB,HEPATITISB,Hepatitis B
+HEPB_PEDIATRIC,1,Catch-up children,,Pediatric Hepatitis B vaccine (HepB),HepB pediatric,HEPATITISB,Hepatitis B
+HEPB_PEDIATRIC,1,General/routine,B-Y12,Pediatric Hepatitis B vaccine (HepB),HepB pediatric,HEPATITISB,Hepatitis B
+DTAPHIBHEPBIPV,2,General/routine,M4,DTaP-Hib-HepB-IPV (acellular) vaccine,DTaP-Hib-HepB-IPV,HEPATITISB,Hepatitis B
+HEPB_PEDIATRIC,2,General/routine,M1-Y12,Pediatric Hepatitis B vaccine (HepB),HepB pediatric,HEPATITISB,Hepatitis B
+HEPB_PEDIATRIC,3,General/routine,M6-M9,Pediatric Hepatitis B vaccine (HepB),HepB pediatric,HEPATITISB,Hepatitis B
+DTAPHIBHEPBIPV,3,General/routine,M6,DTaP-Hib-HepB-IPV (acellular) vaccine,DTaP-Hib-HepB-IPV,HEPATITISB,Hepatitis B
+HPV9,1,HPV administered to females and males,Y9-Y13,HPV-9 (Human papillomavirus 9-valent) vaccine,HPV9,HPV,Human papilloma virus
+INFLUENZA_ADULT,1,Health workers,,Adult seasonal influenza vaccine,Influenza adult,INFLUENZA,Influenza
+INFLUENZA_ADULT,1,Pregnant women,,Adult seasonal influenza vaccine,Influenza adult,INFLUENZA,Influenza
+INFLUENZA_ADULT,1,Risk group(s),,Adult seasonal influenza vaccine,Influenza adult,INFLUENZA,Influenza
+INFLUENZA_ADULT,1,Adults,>Y18,Adult seasonal influenza vaccine,Influenza adult,INFLUENZA,Influenza
+INFLUENZA_PEDIATRIC,1,General/routine,>=M6,Pediatric seasonal influenza vaccine,Influenza pediatric,INFLUENZA,Influenza
+INFLUENZA_PEDIATRIC,1,Risk group(s),,Pediatric seasonal influenza vaccine,Influenza pediatric,INFLUENZA,Influenza
+INFLUENZA_PEDIATRIC,2,General/routine,>=M6,Pediatric seasonal influenza vaccine,Influenza pediatric,INFLUENZA,Influenza
+MMR,1,General/routine,M12,"MMR (Measles, mumps and rubella) vaccine",MMR,MEASLES,Measles
+MMRV,1,General/routine,M12,"MMRV (Measles, mumps, rubella and varicella) vaccine",MMRV,MEASLES,Measles
+MMRV,1,Catch-up children,,"MMRV (Measles, mumps, rubella and varicella) vaccine",MMRV,MEASLES,Measles
+MMRV,2,General/routine,M18-Y6,"MMRV (Measles, mumps, rubella and varicella) vaccine",MMRV,MEASLES,Measles
+MEN_C_CONJ,1,General/routine,M2-M18,Meningococcal C conjugate vaccine,MenC conj,MENINGOCOCCAL,Meningococcal disease
+MEN_ACYW_135CONJ,1,General/routine,Y9-Y17,Meningococcal ACYW conjugate vaccine,MenACWY conj,MENINGOCOCCAL,Meningococcal disease
+MEN_C_CONJ,1,Catch-up children,,Meningococcal C conjugate vaccine,MenC conj,MENINGOCOCCAL,Meningococcal disease
+MEN_C_CONJ,2,General/routine,M12,Meningococcal C conjugate vaccine,MenC conj,MENINGOCOCCAL,Meningococcal disease
+MMR,1,General/routine,M12,"MMR (Measles, mumps and rubella) vaccine",MMR,MUMPS,Mumps
+MMRV,1,General/routine,M12,"MMRV (Measles, mumps, rubella and varicella) vaccine",MMRV,MUMPS,Mumps
+MMRV,1,Catch-up children,,"MMRV (Measles, mumps, rubella and varicella) vaccine",MMRV,MUMPS,Mumps
+MMRV,2,General/routine,M18-Y6,"MMRV (Measles, mumps, rubella and varicella) vaccine",MMRV,MUMPS,Mumps
+DTAPHIBHEPBIPV,1,General/routine,M2,DTaP-Hib-HepB-IPV (acellular) vaccine,DTaP-Hib-HepB-IPV,PERTUSSIS,Pertussis
+DTAPHIBIPV,1,General/routine,M2,DTaP-Hib-IPV (acellular) vaccine,DTaP-Hib-IPV,PERTUSSIS,Pertussis
+TDAP_S,1,Pregnant women,,"Tdap (Tetanus, diphtheria for older children and adults and acellular pertussis) vaccine",Tdap,PERTUSSIS,Pertussis
+TDAP_S_IPV,1,General/routine,Y4-Y6,"Tdap-IPV (Tetanus, diphtheria for older children and adults, acellular pertussis and IPV) vaccine",Tdap-IPV,PERTUSSIS,Pertussis
+TDAP_S_IPV,1,Catch-up children,,"Tdap-IPV (Tetanus, diphtheria for older children and adults, acellular pertussis and IPV) vaccine",Tdap-IPV,PERTUSSIS,Pertussis
+TDAP_S,1,Adults,1st contact,"Tdap (Tetanus, diphtheria for older children and adults and acellular pertussis) vaccine",Tdap,PERTUSSIS,Pertussis
+TDAP_S,1,General/routine,Y11-Y16,"Tdap (Tetanus, diphtheria for older children and adults and acellular pertussis) vaccine",Tdap,PERTUSSIS,Pertussis
+TDAP_S,2,Adults,+Y10,"Tdap (Tetanus, diphtheria for older children and adults and acellular pertussis) vaccine",Tdap,PERTUSSIS,Pertussis
+DTAPHIBHEPBIPV,2,General/routine,M4,DTaP-Hib-HepB-IPV (acellular) vaccine,DTaP-Hib-HepB-IPV,PERTUSSIS,Pertussis
+DTAPHIBIPV,2,General/routine,M4,DTaP-Hib-IPV (acellular) vaccine,DTaP-Hib-IPV,PERTUSSIS,Pertussis
+DTAPHIBIPV,3,General/routine,M6-M12,DTaP-Hib-IPV (acellular) vaccine,DTaP-Hib-IPV,PERTUSSIS,Pertussis
+DTAPHIBHEPBIPV,3,General/routine,M6,DTaP-Hib-HepB-IPV (acellular) vaccine,DTaP-Hib-HepB-IPV,PERTUSSIS,Pertussis
+DTAPHIBIPV,4,General/routine,M18,DTaP-Hib-IPV (acellular) vaccine,DTaP-Hib-IPV,PERTUSSIS,Pertussis
+PCV13,1,General/routine,M2-M12,PCV-13 (Pneumococcal conjugate vaccine 13-valent) vaccine,PCV13,PNEUMO,Pneumococcal disease
+PPV23,1,General/routine,Y2-Y3,PPV-23 (Pneumococcal polysaccharide 23-valent) vaccine,PPV23,PNEUMO,Pneumococcal disease
+PPV23,1,Adults,>=Y50,PPV-23 (Pneumococcal polysaccharide 23-valent) vaccine,PPV23,PNEUMO,Pneumococcal disease
+PPV23,1,Risk group(s),,PPV-23 (Pneumococcal polysaccharide 23-valent) vaccine,PPV23,PNEUMO,Pneumococcal disease
+PCV10,1,General/routine,M2,PCV-10 (Pneumococcal conjugate vaccine 10-valent) vaccine,PCV10,PNEUMO,Pneumococcal disease
+PCV10,2,General/routine,M4,PCV-10 (Pneumococcal conjugate vaccine 10-valent) vaccine,PCV10,PNEUMO,Pneumococcal disease
+PCV13,2,General/routine,M4,PCV-13 (Pneumococcal conjugate vaccine 13-valent) vaccine,PCV13,PNEUMO,Pneumococcal disease
+PCV13,3,General/routine,M6-M12,PCV-13 (Pneumococcal conjugate vaccine 13-valent) vaccine,PCV13,PNEUMO,Pneumococcal disease
+PCV13,4,General/routine,M15-M18,PCV-13 (Pneumococcal conjugate vaccine 13-valent) vaccine,PCV13,PNEUMO,Pneumococcal disease
+DTAPHIBHEPBIPV,1,General/routine,M2,DTaP-Hib-HepB-IPV (acellular) vaccine,DTaP-Hib-HepB-IPV,POLIO,Poliomyelitis
+DTAPHIBIPV,1,General/routine,M2,DTaP-Hib-IPV (acellular) vaccine,DTaP-Hib-IPV,POLIO,Poliomyelitis
+TDAP_S_IPV,1,General/routine,Y4-Y6,"Tdap-IPV (Tetanus, diphtheria for older children and adults, acellular pertussis and IPV) vaccine",Tdap-IPV,POLIO,Poliomyelitis
+TDAP_S_IPV,1,Catch-up children,,"Tdap-IPV (Tetanus, diphtheria for older children and adults, acellular pertussis and IPV) vaccine",Tdap-IPV,POLIO,Poliomyelitis
+DTAPHIBHEPBIPV,2,General/routine,M4,DTaP-Hib-HepB-IPV (acellular) vaccine,DTaP-Hib-HepB-IPV,POLIO,Poliomyelitis
+DTAPHIBIPV,2,General/routine,M4,DTaP-Hib-IPV (acellular) vaccine,DTaP-Hib-IPV,POLIO,Poliomyelitis
+DTAPHIBIPV,3,General/routine,M6-M12,DTaP-Hib-IPV (acellular) vaccine,DTaP-Hib-IPV,POLIO,Poliomyelitis
+DTAPHIBHEPBIPV,3,General/routine,M6,DTaP-Hib-HepB-IPV (acellular) vaccine,DTaP-Hib-HepB-IPV,POLIO,Poliomyelitis
+DTAPHIBIPV,4,General/routine,M18,DTaP-Hib-IPV (acellular) vaccine,DTaP-Hib-IPV,POLIO,Poliomyelitis
+ROTAVIRUS_1,1,General/routine,M2,RV-1 (Rotavirus 1-valent) vaccine,RV1,ROTAVIRUS,Rotavirus
+ROTAVIRUS_5,1,General/routine,M2,RV-5 (Rotavirus 5-valent) vaccine,RV5,ROTAVIRUS,Rotavirus
+ROTAVIRUS_5,2,General/routine,M4,RV-5 (Rotavirus 5-valent) vaccine,RV5,ROTAVIRUS,Rotavirus
+ROTAVIRUS_1,2,General/routine,M4,RV-1 (Rotavirus 1-valent) vaccine,RV1,ROTAVIRUS,Rotavirus
+ROTAVIRUS_5,3,General/routine,M6,RV-5 (Rotavirus 5-valent) vaccine,RV5,ROTAVIRUS,Rotavirus
+MMR,1,General/routine,M12,"MMR (Measles, mumps and rubella) vaccine",MMR,RUBELLA,Rubella
+MMRV,1,General/routine,M12,"MMRV (Measles, mumps, rubella and varicella) vaccine",MMRV,RUBELLA,Rubella
+MMRV,1,Catch-up children,,"MMRV (Measles, mumps, rubella and varicella) vaccine",MMRV,RUBELLA,Rubella
+MMRV,2,General/routine,M18-Y6,"MMRV (Measles, mumps, rubella and varicella) vaccine",MMRV,RUBELLA,Rubella
+DTAPHIBHEPBIPV,1,General/routine,M2,DTaP-Hib-HepB-IPV (acellular) vaccine,DTaP-Hib-HepB-IPV,TETANUS,Tetanus
+DTAPHIBIPV,1,General/routine,M2,DTaP-Hib-IPV (acellular) vaccine,DTaP-Hib-IPV,TETANUS,Tetanus
+TD_S,1,General/routine,Y15,Td (Tetanus toxoid and diphtheria for older children and adults) vaccine,Td,TETANUS,Tetanus
+TD_S,1,Adults,1st contact,Td (Tetanus toxoid and diphtheria for older children and adults) vaccine,Td,TETANUS,Tetanus
+TDAP_S,1,Pregnant women,,"Tdap (Tetanus, diphtheria for older children and adults and acellular pertussis) vaccine",Tdap,TETANUS,Tetanus
+TDAP_S_IPV,1,General/routine,Y4-Y6,"Tdap-IPV (Tetanus, diphtheria for older children and adults, acellular pertussis and IPV) vaccine",Tdap-IPV,TETANUS,Tetanus
+TDAP_S_IPV,1,Catch-up children,,"Tdap-IPV (Tetanus, diphtheria for older children and adults, acellular pertussis and IPV) vaccine",Tdap-IPV,TETANUS,Tetanus
+TDAP_S,1,Adults,1st contact,"Tdap (Tetanus, diphtheria for older children and adults and acellular pertussis) vaccine",Tdap,TETANUS,Tetanus
+TDAP_S,1,General/routine,Y11-Y16,"Tdap (Tetanus, diphtheria for older children and adults and acellular pertussis) vaccine",Tdap,TETANUS,Tetanus
+TDAP_S,2,Adults,+Y10,"Tdap (Tetanus, diphtheria for older children and adults and acellular pertussis) vaccine",Tdap,TETANUS,Tetanus
+TD_S,2,Adults,+Y10,Td (Tetanus toxoid and diphtheria for older children and adults) vaccine,Td,TETANUS,Tetanus
+DTAPHIBHEPBIPV,2,General/routine,M4,DTaP-Hib-HepB-IPV (acellular) vaccine,DTaP-Hib-HepB-IPV,TETANUS,Tetanus
+DTAPHIBIPV,2,General/routine,M4,DTaP-Hib-IPV (acellular) vaccine,DTaP-Hib-IPV,TETANUS,Tetanus
+DTAPHIBIPV,3,General/routine,M6-M12,DTaP-Hib-IPV (acellular) vaccine,DTaP-Hib-IPV,TETANUS,Tetanus
+DTAPHIBHEPBIPV,3,General/routine,M6,DTaP-Hib-HepB-IPV (acellular) vaccine,DTaP-Hib-HepB-IPV,TETANUS,Tetanus
+DTAPHIBIPV,4,General/routine,M18,DTaP-Hib-IPV (acellular) vaccine,DTaP-Hib-IPV,TETANUS,Tetanus
+BCG,1,General/routine,M1,BCG (Baccille Calmette Guérin) vaccine,BCG,TUBERCULOSIS,Tuberculosis
+MMRV,1,General/routine,M12,"MMRV (Measles, mumps, rubella and varicella) vaccine",MMRV,VARICELLA,Varicella
+MMRV,1,Catch-up children,,"MMRV (Measles, mumps, rubella and varicella) vaccine",MMRV,VARICELLA,Varicella
+VARICELLA,1,General/routine,M12-M15,Varicella vaccine,Varicella,VARICELLA,Varicella
+VARICELLA,1,Catch-up children,,Varicella vaccine,Varicella,VARICELLA,Varicella
+ZOSTER,1,Adults,>=Y60,Shingles (Herpes zoster for older adults) vaccine,Zoster,VARICELLA,Varicella
+ZOSTER,2,Adults,>=Y60,Shingles (Herpes zoster for older adults) vaccine,Zoster,VARICELLA,Varicella
+MMRV,2,General/routine,M18-Y6,"MMRV (Measles, mumps, rubella and varicella) vaccine",MMRV,VARICELLA,Varicella
+,,,,,,,
