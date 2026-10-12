@@ -2,7 +2,7 @@
 
 A small FastAPI demo that ranks clinic patients for vaccination outreach and lets a patient look up their own record.
 
-Built at a hackathon by a team of five.
+Built at a 24-hour hackathon by a team of four.
 
 All patient data is randomly generated when the server starts. Nothing here is real medical data, and the scoring is a demonstration, not clinical guidance.
 
@@ -30,7 +30,7 @@ Python · FastAPI · Jinja2 · pandas · HTML/CSS
 ## Run It
 
 ```bash
-pip install fastapi uvicorn jinja2 pandas python-multipart
+pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
