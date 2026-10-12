@@ -8,24 +8,18 @@ CSV_PATH = "Vaccination schedule.csv"
 
 def nameGenerator():
     names = [
-    "Ranjha", "Bikramjit Majithia", "Quill", "Satta", "Chutki", "Emraan Hashmi", "Sidhu Moosewala",
-    "Sorrel", "Groot", "Indumati", "Stephen Hawkings", "Varell", "Torvin", "Malric",
-    "Kala", "Lareth", "Tinka", "Genghis Khan", "Darvion", "Bahadur Singh", "Mad Sandhu",
-    "Naviel", "Aurangzeb", "Archana Puran Singh", "Ravion", "Velric", "Vladimir Putin", "Samiel",
-    "Varion", "Neetu Shatranwala", "Norian", "Kelvion", "Arlen", "Raamu", "Rocket",
-    "Sunny Leone", "Sunny Deol", "Heer", "Bill Gates", "Happy", "Taviel", "Rhodey",
-    "Velren", "Dariel", "Sukhbir Badal", "Muhammad Ali Jinnah", "Valion", "Bobby Deol", "Harmanpreet",
-    "Babbu Maan", "Nerion", "Salven", "Kelric", "Gandhi", "Jashanpreet", "Lionel Messi",
-    "Drake", "Dorian", "Mantis", "Samric", "Navpreet", "Mariel", "Noriel",
-    "Jerith", "Velion", "Martha", "Dilpreet", "Madara Uchiha", "Navaan Sandhu", "Deep Jandu",
-    "Emma Watson", "Kerion", "Harpreet", "Kisuka", "Zeriel", "Lorvin", "Raviel",
-    "Shera", "Gurpreet", "Prem Dhillon", "", "Neriel", "Darvin", "Joyveer",
-    "Jaspreet", "Corren", "Veliel", "Ronaldo", "Donald Trump", "Salman Khan", "Nimrat Khaira",
-    "Jeriel", "Lorienn", "Varven", "Keliel", "Johnpreet", "Darieln",
-    "Navion", "Narendra Modi", "Aishwarya Rai Bachhan", "Heavenpreet", "Lorren", "Seliel", "Tariel",
-    "Sharry Maan", "Valiel", "Jasmichael", "Drax", "Hella", "Scarlett Johnson",
-    "Tavren", "Harmichael", "Kim-Jong-Un", "Bhagwant Maan", "Jeffery", "Sadpreet",
-    "Gurmichael", "Joker", "Winston Churchill", "Millie Brown", "Navielor"
+    "Harpreet Gill", "Gurpreet Dhaliwal", "Jaspreet Brar", "Navpreet Sidhu", "Dilpreet Sandhu",
+    "Simran Grewal", "Manveer Bains", "Amrit Sohal", "Kiran Mann", "Rajan Johal",
+    "Emily Carter", "Liam Fraser", "Olivia Bennett", "Noah Tremblay", "Ava Morrison",
+    "Ethan Wallace", "Sophie Gagnon", "Lucas Reimer", "Chloe Friesen", "Owen Penner",
+    "Mei Lin Chen", "Daniel Wong", "Grace Liu", "Kevin Zhang", "Hana Kim",
+    "Minh Tran", "Linh Nguyen", "Kenji Sato", "Priya Patel", "Arjun Sharma",
+    "Anika Verma", "Rohan Mehta", "Fatima Hassan", "Omar Farouk", "Layla Ahmed",
+    "Yusuf Rahman", "Amara Okafor", "Kwame Mensah", "Zainab Bello", "Tunde Adeyemi",
+    "Sofia Martinez", "Mateo Garcia", "Isabella Rojas", "Diego Fernandez", "Camila Torres",
+    "Anna Kowalski", "Viktor Novak", "Elena Petrova", "Marta Lindgren", "Jonas Becker",
+    "Claire Dubois", "Hugo Lefebvre", "Aiyana Flett", "Cody Ross", "Maya Sinclair",
+    "Riley Spence", "Hannah Wiebe", "Jacob Dyck", "Nora Klassen", "Samuel Loewen",
     ]
     r = random.randint(0, len(names) - 1)
     return  names[r]
