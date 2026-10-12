@@ -2,6 +2,8 @@
 
 A small FastAPI demo that ranks clinic patients for vaccination outreach and lets a patient look up their own record.
 
+Built at a hackathon by a team of five.
+
 All patient data is randomly generated when the server starts. Nothing here is real medical data, and the scoring is a demonstration, not clinical guidance.
 
 ## What It Does
