@@ -48,7 +48,7 @@ def patient_post(
             break
 
     if not found:
-        return templates.TemplateResponse("patient.html", {
+        return templates.TemplateResponse(request, "patient.html", {
             "request": request,
             "patient": None,
             "due_vaccines": [],
@@ -56,7 +56,7 @@ def patient_post(
             "error": "No matching record found."
         })
 
-    return templates.TemplateResponse("patient.html", {
+    return templates.TemplateResponse(request, "patient.html", {
     "request": request,
     "patient": PatientView(found),
     "due_vaccines": getattr(found, "dueVaccines", []),
@@ -90,14 +90,14 @@ def parse_semicolon_list(s: str):
 
 @app.get("/", response_class=HTMLResponse)
 def landing(request: Request):
-    return templates.TemplateResponse("landing.html", {
+    return templates.TemplateResponse(request, "landing.html", {
         "request": request
     })
 
 
 @app.get("/staff", response_class=HTMLResponse)
 def staff(request: Request):
-    return templates.TemplateResponse("staff.html", {
+    return templates.TemplateResponse(request, "staff.html", {
         "request": request,
         "patients": ranked_patients(),
         "message": None,
@@ -107,7 +107,7 @@ def staff(request: Request):
 
 @app.get("/patient", response_class=HTMLResponse)
 def patient_get(request: Request):
-    return templates.TemplateResponse("patient.html", {
+    return templates.TemplateResponse(request, "patient.html", {
         "request": request,
         "patient": None,
         "error": None,
